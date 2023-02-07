@@ -10,7 +10,7 @@ local modkey = "Mod4"
 local altkey = "Control"
 local ctrlkey = "Mod1"
 
-local home = "/home/krishna/"
+local home = "/home/smile/"
 local terminal = "alacritty"
 local editor = "micro"
 local gui_editor = "mousepad"
@@ -127,10 +127,10 @@ local globalkeys = gears.table.join(
     awful.key({ modkey, "Shift" }, "q", awesome.quit,
     {description = "quit awesome", group = "awesome"}),
 
-    awful.key({ modkey, }, "l", function () awful.tag.incmwfact( 0.03) end,
+    awful.key({ modkey,ctrlkey }, "l", function () awful.tag.incmwfact( 0.03) end,
     {description = "increase master width factor", group = "layout"}),
 
-    awful.key({ modkey, }, "h", function () awful.tag.incmwfact(-0.03) end,
+    awful.key({ modkey, ctrlkey}, "h", function () awful.tag.incmwfact(-0.03) end,
     {description = "decrease master width factor", group = "layout"}),
 
     awful.key({ modkey, "Shift" }, "h", function () awful.tag.incnmaster( 1, nil, true) end,

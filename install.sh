@@ -1,3 +1,4 @@
+########## awesome ################
 # 安装awesome桌面
 sudo apt install awesome
 
@@ -15,3 +16,14 @@ cp -rf ./awesome/ ~/.config/
 git clone https://github.com/lcpz/lain.git ~/.config/awesome/lain
 
 cp ./awesome/.Xresources ~
+
+######### zsh ######################
+sudo apt install zsh
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+sudo chsh -s /bin/zsh
+# The logout this user
+
+cp ./zsh/.zshrc ~
