@@ -14,4 +14,4 @@ cp -rf ./awesome/ ~/.config/
 # 克隆lain到对应的项目下
 git clone https://github.com/lcpz/lain.git ~/.config/awesome/lain
 
-cp ./awesom/.Xresources ~
+cp ./awesome/.Xresources ~
