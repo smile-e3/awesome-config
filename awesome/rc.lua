@@ -207,5 +207,5 @@ beautiful.gap_single_client = false
 --    end
 --end)
 
-awful.spawn("/home/krishna/.config/awesome/autorun.sh")
+awful.spawn("/home/smile/.config/awesome/autorun.sh")
 
